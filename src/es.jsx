@@ -8,11 +8,11 @@ import Accordion from 'react-bootstrap/Accordion';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import Card from 'react-bootstrap/Card';
 
-export default function GetEnglishCV() {
+export default function GetSpanishCV() {
     return (
         <>
             <Tabs fill>
-                <Tab eventKey="skills" title="Skills">
+                <Tab eventKey="skills" title="Habilidades">
                     <Container>
                         <Row>
                             <ListGroup variant="flush" className="lead">
@@ -23,13 +23,13 @@ export default function GetEnglishCV() {
                         </Row>
                     </Container>
                 </Tab>
-                <Tab eventKey="exp" title="Experience">
+                <Tab eventKey="exp" title="Experiencia">
                     <Accordion defaultActiveKey="0">
                         <Accordion.Item eventKey="0">
                             <Accordion.Header>
                                 <Container>
                                     <Row>
-                                        <Col><h6>FullStack Developer</h6></Col>
+                                        <Col><h6>Desarrollador FullStack</h6></Col>
                                         <Col><h6><u><a href='https://ar.nttdata.com/' target='_blank'>NTTData</a></u></h6></Col>
                                         <Col><i>Buenos Aires, Argentina</i></Col>
                                         <Col><h6>08/21 - to present</h6></Col>
