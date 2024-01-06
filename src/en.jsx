@@ -9,6 +9,12 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 import Card from 'react-bootstrap/Card';
 
 export default function GetEnglishCV() {
+    const cursos = [
+        { title: "Web Develop", url: "https://www.coderhouse.com/certificados/6114692cebb0fb00116cf7e6?lang=en", desc: "Fundamentals of Web Development: HTML, CSS, and Bootstrap", date: "08/21" },
+        { title: "JavaScript", url: "https://www.coderhouse.com/certificados/617fc8931deb020067d43f5d?lang=en", desc: "Introduction to the language and creation of simple web app", date: "10/21" },
+        { title: "ReactJS", url: "https://www.coderhouse.com/certificados/623cb7ca95db120019ce1b76?lang=en", desc: "Developed an eCommerce Application in ReactJS, seamlessly integrating Firebase and RESTful APIs", date: "02/22" },
+    ];
+
     return (
         <>
             <Tabs fill>
@@ -85,8 +91,9 @@ export default function GetEnglishCV() {
                     </Accordion>
                 </Tab>
                 <Tab eventKey="ed" title="Education">
+                <h3 className='text-center'>University</h3>
                     <Container>
-                        <Card style={{ width: '18rem' }}>
+                        <Card>
                             <Card.Body>
                                 <Card.Title>Bachelor in Programming</Card.Title>
                                 <Card.Text>
@@ -100,30 +107,27 @@ export default function GetEnglishCV() {
                             </Card.Body>
                         </Card>
                     </Container>
-                </Tab>
-                <Tab eventKey="courses" title="Certificated Courses">
                     <Container>
+                        <h4 className='text-center'>Certified Courses</h4>
                         <Row>
                             <Col />
-                            <Col xs={11}>
-                                <ListGroup variant="flush" className="lead">
-                                    <ListGroup.Item>
-                                        <a href='https://www.coderhouse.com/certificados/6114692cebb0fb00116cf7e6?lang=es' target="_blank">
-                                            <b>Web Develop - Coderhouse:</b> Fundamentals of Web Development: HTML, CSS, and Bootstrap (08/2021)
-                                        </a>
-                                    </ListGroup.Item>
-                                    <ListGroup.Item>
-                                        <a href='https://www.coderhouse.com/certificados/617fc8931deb020067d43f5d?lang=es' target="_blank">
-                                            <b>JavaScript - Coderhouse:</b> Introduction to the language and creation of simple web app (10/2021)
-                                        </a>
-                                    </ListGroup.Item>
-                                    <ListGroup.Item>
-                                        <a href='https://www.coderhouse.com/certificados/623cb7ca95db120019ce1b76?lang=es' target="_blank">
-                                            <b>ReactJS - Coderhouse:</b> Developed an eCommerce Application in ReactJS, seamlessly integrating Firebase and RESTful APIs (02/2022)
-                                        </a>
-                                    </ListGroup.Item>
-                                </ListGroup>
-                            </Col>
+                            {cursos.map((curso) => (
+                                <Col>
+                                    <Card style={{ width: '20rem' }}>
+                                        <Card.Body>
+                                            <a href={curso.url} target="_blank"><Card.Title>{curso.title}</Card.Title></a>
+                                            <Card.Text>
+                                                <Container>
+                                                    <h6><u>Coderhouse</u></h6>
+                                                    <Row><h6>{curso.date}</h6></Row>
+                                                    <ProgressBar now={100} label="100%" />
+                                                    <Row><small className="text-muted"><i>{curso.desc}</i></small></Row>
+                                                </Container>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                            ))}
                             <Col />
                         </Row>
                     </Container>

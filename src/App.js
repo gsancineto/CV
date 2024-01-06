@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import { useState } from 'react';
 import GetSpanishCV from './es';
 import Language from './lang';
+import Download from './download';
 
 function App() {
   const [lang, setLang] = useState("es");
@@ -16,8 +17,9 @@ function App() {
     <Container>
       <Row>
         <Col />
-        <Col><h1 className='display-6'>Gabriel Sancineto</h1></Col>
+        <Col xs={10}><h1 className='display-6'>Gabriel Sancineto</h1></Col>
         <Col><Language changeLanguage={changeLanguage} lang={lang}/></Col>
+        <Col><Download lang={lang} /></Col>
         <Col />
       </Row>
       <Row>

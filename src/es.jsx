@@ -9,6 +9,12 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 import Card from 'react-bootstrap/Card';
 
 export default function GetSpanishCV() {
+    const cursos = [
+        { title: "Web Develop", url: "https://www.coderhouse.com/certificados/6114692cebb0fb00116cf7e6?lang=es", desc: "Fundamentos del Desarrollo Web: HTML, CSS y Bootstrap", date: "08/21" },
+        { title: "JavaScript", url: "https://www.coderhouse.com/certificados/617fc8931deb020067d43f5d?lang=es", desc: "Introducción al lenguaje y creación de una aplicación web sencilla", date: "10/21" },
+        { title: "ReactJS", url: "https://www.coderhouse.com/certificados/623cb7ca95db120019ce1b76?lang=es", desc: "Desarrollé una Aplicación de Comercio Electrónico en ReactJS, integrando de manera fluida Firebase y APIs RESTful", date: "02/22" },
+    ];
+
     return (
         <>
             <Tabs fill>
@@ -32,7 +38,7 @@ export default function GetSpanishCV() {
                                         <Col><h6>Desarrollador FullStack</h6></Col>
                                         <Col><h6><u><a href='https://ar.nttdata.com/' target='_blank'>NTTData</a></u></h6></Col>
                                         <Col><i>Buenos Aires, Argentina</i></Col>
-                                        <Col><h6>08/21 - to present</h6></Col>
+                                        <Col><h6>08/21 - actualidad</h6></Col>
                                     </Row>
                                 </Container>
                             </Accordion.Header>
@@ -42,11 +48,11 @@ export default function GetSpanishCV() {
                                         <Col />
                                         <Col xs={11}>
                                             <ListGroup variant="flush">
-                                                <ListGroup.Item>Engineered new functionalities and implemented fixes on industrial applications using ReactJS and .NET Core across various plants for key clients.</ListGroup.Item>
-                                                <ListGroup.Item>Led a critical migration from React Class Components to React Hooks for an application serving world-class metallurgical factories.</ListGroup.Item>
-                                                <ListGroup.Item>Implemented development within a microservices architecture, creating novel .NET and React applications with Continuous Integration (CI) in Azure DevOps.</ListGroup.Item>
-                                                <ListGroup.Item>Proficient in applying agile methodologies, particularly with Scrum, to drive efficient and collaborative project execution.</ListGroup.Item>
-                                                <ListGroup.Item>Proven track record in collaborative team environments, demonstrating strong communication and interpersonal skills.</ListGroup.Item>
+                                                <ListGroup.Item>Diseñé nuevas funcionalidades e implementé correcciones en aplicaciones industriales utilizando ReactJS y .NET Core en diversas plantas para clientes clave.</ListGroup.Item>
+                                                <ListGroup.Item>Lideré una migración crítica de Componentes de Clase de React a React Hooks para una aplicación que sirve a fábricas metalúrgicas de clase mundial.</ListGroup.Item>
+                                                <ListGroup.Item>Implementé el desarrollo dentro de una arquitectura de microservicios, creando aplicaciones novedosas en .NET y React con Integración Continua (CI) en Azure DevOps.</ListGroup.Item>
+                                                <ListGroup.Item>Competente en la aplicación de metodologías ágiles, especialmente con Scrum, para impulsar una ejecución eficiente y colaborativa de proyectos.</ListGroup.Item>
+                                                <ListGroup.Item>Historial comprobado en entornos colaborativos de equipo, demostrando habilidades sólidas de comunicación e interpersonales.</ListGroup.Item>
                                             </ListGroup>
                                         </Col>
                                         <Col />
@@ -58,7 +64,7 @@ export default function GetSpanishCV() {
                             <Accordion.Header>
                                 <Container>
                                     <Row>
-                                        <Col><h6>Backend Developer</h6></Col>
+                                        <Col><h6>Desarrollador Backend</h6></Col>
                                         <Col><h6><u><a href='https://www.tecnologisticaconsultores.com/' target='_blank'>TLC Innovation</a></u></h6></Col>
                                         <Col><i>Buenos Aires, Argentina</i></Col>
                                         <Col><h6>03/2019 - 08/2021</h6></Col>
@@ -71,10 +77,10 @@ export default function GetSpanishCV() {
                                         <Col />
                                         <Col xs={11}>
                                             <ListGroup variant="flush">
-                                                <ListGroup.Item>Engineered and implemented ASP.NET applications facilitating seamless integration between company and client solutions through ADO.NET integration.</ListGroup.Item>
-                                                <ListGroup.Item>Formulated and executed SQL queries for extracting and updating commercial data within relational databases.</ListGroup.Item>
-                                                <ListGroup.Item>Pioneered the enhancement of features in industrial business applications, encompassing both front-end and back-end development, complete with manual testing and comprehensive app documentation.</ListGroup.Item>
-                                                <ListGroup.Item>Spearheaded and executed cutting-edge SAP integration initiatives leveraging .NET, API REST, and SOAP for consumption and creation.</ListGroup.Item>
+                                                <ListGroup.Item>Diseñé y desarrollé aplicaciones ASP.NET para facilitar la integración entre las soluciones de la empresa y las soluciones de los clientes mediante la integración de ADO.NET.</ListGroup.Item>
+                                                <ListGroup.Item>Elaboré consultas SQL para extraer y actualizar datos comerciales en tablas relacionales.</ListGroup.Item>
+                                                <ListGroup.Item>Lideré el desarrollo de nuevas funcionalidades en aplicaciones empresariales industriales, abarcando tanto el desarrollo del front-end como del back-end, con pruebas manuales y documentación exhaustiva de la aplicación.</ListGroup.Item>
+                                                <ListGroup.Item>Encabecé y llevé a cabo proyectos innovadores de integración SAP utilizando .NET, API REST y consumo y creación de servicios SOAP.</ListGroup.Item>
                                             </ListGroup>
                                         </Col>
                                         <Col />
@@ -84,46 +90,44 @@ export default function GetSpanishCV() {
                         </Accordion.Item>
                     </Accordion>
                 </Tab>
-                <Tab eventKey="ed" title="Education">
+                <Tab eventKey="ed" title="Educacion">
+                    <h3 className='text-center'>Carrera universitaria</h3>
                     <Container>
-                        <Card style={{ width: '18rem' }}>
+                        <Card>
                             <Card.Body>
-                                <Card.Title>Bachelor in Programming</Card.Title>
+                                <Card.Title>Tecnicatura Superior en Programación</Card.Title>
                                 <Card.Text>
                                     <Container>
                                         <a href='https://fra.utn.edu.ar/' target="_blank"><h6><u>Universidad Técnica Nacional Facultad Regional Avellaneda</u></h6></a>
-                                        <Row><h6>08/18* - to present</h6></Row>
+                                        <Row><h6>08/18* - actualidad</h6></Row>
                                         <ProgressBar now={25} label="25%" />
-                                        <Row><small className="text-muted"><i>*Extended a hiatus following the initial semester and resumed studies in 2023</i></small></Row>
+                                        <Row><small className="text-muted"><i>*Prolongué una pausa después del primer semestre y reanudé los estudios en 2023</i></small></Row>
                                     </Container>
                                 </Card.Text>
                             </Card.Body>
                         </Card>
                     </Container>
-                </Tab>
-                <Tab eventKey="courses" title="Certificated Courses">
                     <Container>
+                        <h4 className='text-center'>Cursos certificados</h4>
                         <Row>
                             <Col />
-                            <Col xs={11}>
-                                <ListGroup variant="flush" className="lead">
-                                    <ListGroup.Item>
-                                        <a href='https://www.coderhouse.com/certificados/6114692cebb0fb00116cf7e6?lang=es' target="_blank">
-                                            <b>Web Develop - Coderhouse:</b> Fundamentals of Web Development: HTML, CSS, and Bootstrap (08/2021)
-                                        </a>
-                                    </ListGroup.Item>
-                                    <ListGroup.Item>
-                                        <a href='https://www.coderhouse.com/certificados/617fc8931deb020067d43f5d?lang=es' target="_blank">
-                                            <b>JavaScript - Coderhouse:</b> Introduction to the language and creation of simple web app (10/2021)
-                                        </a>
-                                    </ListGroup.Item>
-                                    <ListGroup.Item>
-                                        <a href='https://www.coderhouse.com/certificados/623cb7ca95db120019ce1b76?lang=es' target="_blank">
-                                            <b>ReactJS - Coderhouse:</b> Developed an eCommerce Application in ReactJS, seamlessly integrating Firebase and RESTful APIs (02/2022)
-                                        </a>
-                                    </ListGroup.Item>
-                                </ListGroup>
-                            </Col>
+                            {cursos.map((curso) => (
+                                <Col>
+                                    <Card style={{ width: '20rem' }}>
+                                        <Card.Body>
+                                            <a href={curso.url} target="_blank"><Card.Title>{curso.title}</Card.Title></a>
+                                            <Card.Text>
+                                                <Container>
+                                                    <h6><u>Coderhouse</u></h6>
+                                                    <Row><h6>{curso.date}</h6></Row>
+                                                    <ProgressBar now={100} label="100%" />
+                                                    <Row><small className="text-muted"><i>{curso.desc}</i></small></Row>
+                                                </Container>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                            ))}
                             <Col />
                         </Row>
                     </Container>

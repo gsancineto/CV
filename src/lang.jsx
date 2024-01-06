@@ -1,4 +1,5 @@
 import Button from 'react-bootstrap/Button';
+import TranslateIcon from '@mui/icons-material/Translate';
 
 export default function Language({changeLanguage, lang}){
     const handleLanguage = () => {
@@ -9,6 +10,6 @@ export default function Language({changeLanguage, lang}){
         }
     }
     return(
-        <Button variant="success" onClick={handleLanguage} size="sm"><h6>{lang.toUpperCase()}</h6></Button>
+        <Button variant="success" onClick={handleLanguage} size="sm"><h6><TranslateIcon /></h6></Button>
     )
 }
