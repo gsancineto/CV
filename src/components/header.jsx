@@ -9,7 +9,7 @@ export default function Header(){
         <div className="header">
             <Flex justify="between" align="center">
                 <Flex direction="column" align="end">
-                    <Heading size="8" weight="bold" trim="both">gsancineto</Heading>
+                    <Heading size="8" weight="bold" trim="both">gSancineto</Heading>
                     <Heading size="4" trim="both">Ssr. FullStack Dev</Heading>
                 </Flex>
                 <Flex gap="3">

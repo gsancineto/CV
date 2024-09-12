@@ -1,0 +1,48 @@
+[
+    {
+        "title": "TLC Innovation",
+        "period": "Marzo 2019 - Agosto 2021",
+        "description": "Inicié mi trayectoria como Backend Trainee, especializándome en el desarrollo con .NET y C#. Mi trabajo se centró en la integración de consultas y actualizaciones SQL utilizando ADO.NET. Colaboré estrechamente con diversos equipos en proyectos para importantes clientes del sector logístico y comercial, desarrollando aplicaciones industriales de uso interno. Al finalizar mi etapa como Backend Jr+, había acumulado experiencia significativa en una variedad de proyectos, incluyendo la integración de APIs REST y SOAP, así como la implementación de SAP en entornos .NET.",
+        "tech": [
+            {
+                "src": "https://cdn.prod.website-files.com/6047a9e35e5dc54ac86ddd90/63065002cd563e1cd1cead28_eaadfe64.png",
+                "fallback": "C#"
+            },
+            {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png",
+                "fallback": ".NET"
+            },
+            {
+                "src": "https://symbols.getvecta.com/stencil_28/61_sql-database-generic.90b41636a8.png",
+                "fallback": "SQL"
+            }
+        ]
+    },
+    {
+        "title": "NTT Data",
+        "period": "Agosto 2021 - Actualidad",
+        "description": "Desde agosto de 2021, he trabajado como FullStack Jr/Ssr, incorporando .NET Core en el backend y React en el frontend, con Angular añadido recientemente. He colaborado en proyectos para clientes globales del sector industrial, trabajando directamente con el cliente y otras consultoras. He adoptado mejores prácticas y estándares como Azure DevOps para despliegues y Git para control de versiones. Actualmente, desarrollo una aplicación con arquitectura de microservicios y Angular.",
+        "tech": [
+            {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png",
+                "fallback": ".NET"
+            },
+            {
+                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlGmKtrnxElpqw3AExKXPWWBulcwjlvDJa1Q&s",
+                "fallback": "React"
+            },
+            {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png",
+                "fallback": "Angular"
+            },
+            {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/2048px-Microsoft_Azure.svg.png",
+                "fallback": "Azure"
+            },
+            {
+                "src": "https://book.git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+                "fallback": "Git"
+            }
+        ]
+    }
+]

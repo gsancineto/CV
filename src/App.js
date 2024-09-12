@@ -5,9 +5,8 @@ import Home from './components/home';
 
 function App() {
   return (
-    <Theme>
+    <Theme accentColor="blue">
         <Home />
-        <ThemePanel />
     </Theme>
   );
 }
