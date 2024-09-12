@@ -1,27 +1,12 @@
 import { Link1Icon } from "@radix-ui/react-icons";
-import { Avatar, Badge, Blockquote, Box, Card, Flex, Heading, HoverCard, Link, Text } from "@radix-ui/themes";
+import { Avatar, Badge, Blockquote, Flex, Heading, HoverCard, Link, Text } from "@radix-ui/themes";
 
 
 export default function TimelineButton({ data }) {
     const {title, date, description, tech, certification} = data;
 
-    // return(
-    //     <Box maxWidth="350px">
-    //         <Card size="1">
-{/* <Heading size="2">{title}<Badge color="green" ><Link href={certification} underline="none" target="_blank"><Link1Icon /></Link></Badge></Heading>
-                    <Blockquote size="1" >{date}</Blockquote>
-                    <Text size="2">{description}</Text>
-                    <Flex className="tech-list-card" gap="2" >
-                        {
-                            techList.map(tech => <Avatar src={tech.src} fallback={tech.fallback} size="2" key={tech.fallback} />)
-                        }
-                    </Flex> */}
-    //         </Card>
-    //     </Box>
-    // )
-
     return (
-        <Flex direction="column" justify="end">
+        <Flex direction="column" justify="end" gap="3">
             <HoverCard.Root>
                 <HoverCard.Trigger>
                     <Avatar

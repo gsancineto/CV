@@ -21,7 +21,7 @@
     {
         "title": "NTT Data",
         "period": "Agosto 2021 - Actualidad",
-        "description": "Desde agosto de 2021, he trabajado como FullStack Jr/Ssr, incorporando .NET Core en el backend y React en el frontend, con Angular añadido recientemente. He colaborado en proyectos para clientes globales del sector industrial, trabajando directamente con el cliente y otras consultoras. He adoptado mejores prácticas y estándares como Azure DevOps para despliegues y Git para control de versiones. Actualmente, desarrollo una aplicación con arquitectura de microservicios y Angular.",
+        "description": "Desde agosto de 2021, me he desempeñado como FullStack Jr/Ssr, especializándome en .NET Core para el backend y React para el frontend, con la incorporación reciente de Angular. He colaborado en proyectos para clientes globales en el sector industrial, trabajando de manera directa con los clientes y en conjunto con otras consultoras. A lo largo de este tiempo, he adoptado mejores prácticas y estándares como Azure DevOps para despliegues, Git para control de versiones, y metodologías de CI/CD. Actualmente, estoy enfocado en perfeccionar mis conocimientos técnicos, así como en desarrollar mis habilidades blandas y de liderazgo.",
         "tech": [
             {
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png",
@@ -34,6 +34,10 @@
             {
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png",
                 "fallback": "Angular"
+            },
+            {
+                "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
+                "fallback": "TS"
             },
             {
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/2048px-Microsoft_Azure.svg.png",

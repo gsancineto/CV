@@ -4,7 +4,6 @@ import Data from "../../constants/experience.json";
 
 export default function Experience(){
 
-    
     return (
         <Flex direction="column" width="50%">
             <Card>

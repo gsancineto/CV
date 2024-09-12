@@ -4,5 +4,5 @@
 
 .timeline-line{
   height: 100vh;
-  border: 2px solid black;
+  border: 1px solid rgba(163, 163, 163, 0.418);
 }

@@ -1,5 +1,5 @@
-import { DownloadIcon, GitHubLogoIcon, LinkedInLogoIcon, MoonIcon } from "@radix-ui/react-icons";
-import { Flex, Heading, IconButton, SegmentedControl, Separator, Tooltip } from "@radix-ui/themes";
+import { DownloadIcon, GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+import { Avatar, Flex, Heading, IconButton, Link, SegmentedControl, Tooltip } from "@radix-ui/themes";
 
 export default function Header(){
 
@@ -18,16 +18,13 @@ export default function Header(){
                         <SegmentedControl.Item value="en">EN</SegmentedControl.Item>
                     </SegmentedControl.Root>
                     <Tooltip content="Perfil Linkedin">
-                        <IconButton radius="large"><LinkedInLogoIcon /></IconButton>
+                        <Link href="https://www.linkedin.com/in/gsancineto/" target="_blank"><IconButton radius="large"><LinkedInLogoIcon /></IconButton></Link>
                     </Tooltip>
                     <Tooltip content="Perfil Github">
-                        <IconButton radius="large"><GitHubLogoIcon /></IconButton>
+                        <Link href="https://github.com/gsancineto" target="_blank"><IconButton radius="large"><GitHubLogoIcon /></IconButton></Link>
                     </Tooltip>
                     <Tooltip content="Descargar en PDF">
                         <IconButton radius="large"><DownloadIcon /></IconButton>
-                    </Tooltip>
-                    <Tooltip content="Tema nocturno">
-                        <IconButton radius="full"><MoonIcon /></IconButton>
                     </Tooltip>
                 </Flex>
             </Flex>

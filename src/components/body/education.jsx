@@ -7,8 +7,6 @@ export default function Education(){
 
     const {career, certifications} = Data;
 
-
-
     return (
         <Flex direction="column" width="50%">
             <Card>
