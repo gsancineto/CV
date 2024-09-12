@@ -7,8 +7,9 @@ export default function Body(){
 
 
     return (
-        <Flex style={{border: "5px solid red"}} gap="3">
+        <Flex gap="3">
             <Education />
+            <div className="timeline-line"></div>
             <Experience />
             {/* TODO: armar el timeline vertical, agregar a cada lado segun año la educacion o experiencia */}
             {/* TODO: resolver traduccion */}

@@ -1,3 +1,12 @@
 .header{
   padding-top: 2vh;
 }
+
+.timeline-line{
+  height: 100vh;
+  border: 2px solid black;
+}
+
+.tech-list-card{
+  background-color: gray;
+}
