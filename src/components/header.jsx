@@ -1,7 +1,9 @@
 import { DownloadIcon, EnvelopeClosedIcon, GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
-import { Avatar, Flex, Heading, IconButton, Link, SegmentedControl, Tooltip } from "@radix-ui/themes";
+import { Flex, Heading, IconButton, Link, SegmentedControl, Tooltip } from "@radix-ui/themes";
 import { useTranslation } from "react-i18next";
 import i18n from "../i18n";
+import en from "../cv/en.pdf";
+import es from "../cv/es.pdf";
 
 export default function Header(){
     const {t } = useTranslation();
@@ -28,7 +30,7 @@ export default function Header(){
                         <Link href="https://github.com/gsancineto" target="_blank"><IconButton radius="large"><GitHubLogoIcon /></IconButton></Link>
                     </Tooltip>
                     <Tooltip content={t("header.download")}>
-                        <Link href="#" target="_blank"><IconButton radius="large"><DownloadIcon /></IconButton></Link>
+                        <Link href={i18n.language === "en" ? en : es} download="gsancineto-cv" target="_blank" rel="noreferrer"><IconButton radius="large"><DownloadIcon /></IconButton></Link>
                     </Tooltip>
                     <Tooltip content={t("header.email")}>
                         <Link href="mailto:jgabrielsancineto@gmail.com" target="_blank"><IconButton radius="large"><EnvelopeClosedIcon /></IconButton></Link>
