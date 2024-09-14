@@ -1,6 +1,6 @@
 import { Card, Flex, Heading } from "@radix-ui/themes";
 import TimelineCard from "./timelineCard";
-import Data from "../../constants/experience.json";
+import Data from "../../data/experience.json";
 import { useTranslation } from "react-i18next";
 
 export default function Experience(){

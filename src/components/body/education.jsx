@@ -1,7 +1,7 @@
 import { Card, Flex, Heading } from "@radix-ui/themes";
 import TimelineCard from "./timelineCard";
 import TimelineButton from "./timelineButton";
-import Data from "../../constants/education.json"
+import Data from "../../data/education.json"
 import { useTranslation } from "react-i18next";
 
 export default function Education(){
