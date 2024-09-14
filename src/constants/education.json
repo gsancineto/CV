@@ -1,9 +1,9 @@
 {
     "career": [
         {
-            "title": "Tecnicatura Superior en Programación - UTN",
-            "period": "Agosto 2018 - Marzo 2019",
-            "description": "En 2018, comencé la carrera impulsado por mi curiosidad por la computación. Durante ese tiempo, adquirí conocimientos básicos en C, así como en JavaScript y lógica de programación. En 2019, conseguí mi primer empleo en el campo y, debido a ello, decidí poner la carrera en pausa.",
+            "title": "education.career.0.title",
+            "period": "education.career.0.period",
+            "description": "education.career.0.description",
             "tech": [
                 {
                     "src": "https://miro.medium.com/v2/resize:fit:920/1*ati78IVpiHXC2o2CsYLBFw.jpeg",
@@ -20,9 +20,9 @@
             ]
         },
         {
-            "title": "Tecnicatura Universitaria en Programación - UTN",
-            "period": "Agosto 2023 - Actualidad",
-            "description": "En 2023, sentí la necesidad de retomar mis estudios, por lo que decidí volver a la formación académica. Actualmente, estoy cursando una tecnicatura con el objetivo de finalizarla para fines de 2024.",
+            "title": "education.career.1.title",
+            "period": "education.career.1.period",
+            "description": "education.career.1.description",
             "tech": [
                 {
                     "src": "https://logolook.net/wp-content/uploads/2022/12/Python-Software-Foundation-Emblem.png",
@@ -35,15 +35,20 @@
                 {
                     "src": "https://symbols.getvecta.com/stencil_28/61_sql-database-generic.90b41636a8.png",
                     "fallback": "SQL"
+                },
+                {
+                    "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Linux_logo.jpg",
+                    "fallback": "GNU"
                 }
             ]
         }
     ],
     "certifications": [
         {
-            "title": "Web Developer - Coderhouse",
-            "date": "Agosto 2021",
-            "description": "Fundamentos del desarrollo web.",
+            "title": "education.certifications.cert.0.title",
+            "date": "education.certifications.cert.0.date",
+            "description": "education.certifications.cert.0.description",
+            "institution": "https://res.cloudinary.com/hdsqazxtw/image/upload/v1559681445/logo_coderhouse_2_bmqbet.png",
             "tech": [
                 {
                     "src": "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png",
@@ -54,12 +59,13 @@
                     "fallback": "CSS"
                 }
             ],
-            "certification": ""
+            "certification": "https://www.coderhouse.com/ar/certificados/6114692cebb0fb00116cf7e6"
         },
         {
-            "title": "Javascript - Coderhouse",
-            "date": "Octubre 2021",
-            "description": "Introducción al lenguaje y creación de una aplicación web con JS.",
+            "title": "education.certifications.cert.1.title",
+            "date": "education.certifications.cert.1.date",
+            "description": "education.certifications.cert.1.description",
+            "institution": "https://res.cloudinary.com/hdsqazxtw/image/upload/v1559681445/logo_coderhouse_2_bmqbet.png",
             "tech": [
                 {
                     "src": "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png",
@@ -74,16 +80,17 @@
                     "fallback": "JS"
                 }
             ],
-            "certification": ""
+            "certification": "https://www.coderhouse.com/ar/certificados/617fc8931deb020067d43f5d"
         },
         {
-            "title": "ReactJS - Coderhouse",
-            "date": "Febrero 2022",
-            "description": "Desarrollo de una Aplicación e-Commerce en ReactJS, integrando de manera fluida Firebase y APIs RESTful.",
+            "title": "education.certifications.cert.2.title",
+            "date": "education.certifications.cert.2.date",
+            "description": "education.certifications.cert.2.description",
+            "institution": "https://res.cloudinary.com/hdsqazxtw/image/upload/v1559681445/logo_coderhouse_2_bmqbet.png",
             "tech": [
                 {
                     "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlGmKtrnxElpqw3AExKXPWWBulcwjlvDJa1Q&s",
-                    "fallback": "ReactJS"
+                    "fallback": "React"
                 },
                 {
                     "src": "https://www.gstatic.com/devrel-devsite/prod/vff8c7d35de8ade382e79c3b9a923182d876d284b6ae43035fbefc80d49042a6e/firebase/images/touchicon-180.png",
@@ -98,7 +105,24 @@
                     "fallback": "SASS"
                 }
             ],
-            "certification": ""
+            "certification": "https://www.coderhouse.com/ar/certificados/623cb7ca95db120019ce1b76"
+        },
+        {
+            "title": "education.certifications.cert.3.title",
+            "date": "education.certifications.cert.3.date",
+            "description": "education.certifications.cert.3.description",
+            "institution": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz-VJrdTGYP1C75ISpW0gn6ktIZ4d5ZHiY5A&s",
+            "tech": [
+                {
+                    "src": "https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png",
+                    "fallback": "Node"
+                },
+                {
+                    "src": "https://seeklogo.com/images/M/mongodb-logo-D13D67C930-seeklogo.com.png",
+                    "fallback": "MDB"
+                }
+            ],
+            "certification": "https://sceu-utnba.bitrix24.es/pub/document/92354/7765862173f77b24b17f01f05ca18a36/"
         }
     ]
 }

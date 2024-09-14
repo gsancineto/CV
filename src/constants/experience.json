@@ -1,8 +1,8 @@
 [
     {
-        "title": "TLC Innovation",
-        "period": "Marzo 2019 - Agosto 2021",
-        "description": "Inicié mi trayectoria como Backend Trainee, especializándome en el desarrollo con .NET y C#. Mi trabajo se centró en la integración de consultas y actualizaciones SQL utilizando ADO.NET. Colaboré estrechamente con diversos equipos en proyectos para importantes clientes del sector logístico y comercial, desarrollando aplicaciones industriales de uso interno. Al finalizar mi etapa como Backend Jr+, había acumulado experiencia significativa en una variedad de proyectos, incluyendo la integración de APIs REST y SOAP, así como la implementación de SAP en entornos .NET.",
+        "title": "experience.exp.0.title",
+        "period": "experience.exp.0.period",
+        "description": "experience.exp.0.description",
         "tech": [
             {
                 "src": "https://cdn.prod.website-files.com/6047a9e35e5dc54ac86ddd90/63065002cd563e1cd1cead28_eaadfe64.png",
@@ -19,9 +19,9 @@
         ]
     },
     {
-        "title": "NTT Data",
-        "period": "Agosto 2021 - Actualidad",
-        "description": "Desde agosto de 2021, me he desempeñado como FullStack Jr/Ssr, especializándome en .NET Core para el backend y React para el frontend, con la incorporación reciente de Angular. He colaborado en proyectos para clientes globales en el sector industrial, trabajando de manera directa con los clientes y en conjunto con otras consultoras. A lo largo de este tiempo, he adoptado mejores prácticas y estándares como Azure DevOps para despliegues, Git para control de versiones, y metodologías de CI/CD. Actualmente, estoy enfocado en perfeccionar mis conocimientos técnicos, así como en desarrollar mis habilidades blandas y de liderazgo.",
+        "title": "experience.exp.1.title",
+        "period": "experience.exp.1.period",
+        "description": "experience.exp.1.description",
         "tech": [
             {
                 "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png",

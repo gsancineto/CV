@@ -4,8 +4,6 @@ import Body from "./body";
 
 export default function Home() {
 
-
-
     return (
         <Container>
             <Header />
